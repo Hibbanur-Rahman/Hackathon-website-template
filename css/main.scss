@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+$white: #FFFFCC;
+$black: #1e1e1e;
+$primary-blue: #7588FD;
+$light-blue: #AEB8FE;
+$dark-blue: #1355ab;
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+;
+
+.ctm-navbar {
+    height: 70px;
+    transition: height .2s cubic-bezier(.4, 0, .2, 1) 0ms, background-color .2s cubic-bezier(.4, 0, .2, 1) 0ms;
+    background-color: $primary-blue !important;
+    z-index: 3;
+}
+
+.nav-toggle-btn{
+    background-color: $primary-blue;
+}
+.nav-responsive{
+    background-color: $black !important;
+}
+.closeNav{
+    i{
+        color: $white !important;
+    }
+}
+.navRow{
+    background-color: $primary-blue !important;
+    height: 50px;
+}
+.home-section {
+    padding-top: 100px !important;
+    background-color: $primary-blue;
+
+    h1{
+        font-size: 85px;
+        font-weight: 700;
+    }
+    .textRegistartionDate{
+        width: 58%;
+    }
+}
+
+.typed-cursor {
+    // display: none !important;
+    margin: 0px !important;
+    width: 2px !important;
+    height: 30px !important;
+    background-color: $white;
+    display: inline-block;
+    margin-left: 3px !important;
+}
+
+.typing {
+    width: auto !important;
+}
+
+
+.overlay {
+    position: absolute;
+    margin-left: 100%;
+    bottom: 0px;
+    background-color: #FFFFCC !important;
+    color: #1e1e1e;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+ }
+.judges,
+.register {
+    background-color:$primary-blue !important;  
+    transition: all 0.3s ease-in-out; 
+    
+}
+.register,.judges{
+    &:hover {
+        transition: all 0.3s ease-in-out; 
+
+        .overlay{
+            margin-left: 0%;
+            transition: all 0.3s ease-in-out; 
+            z-index: 1;
+        }
+    }
+}
+.buttonHover{
+    overflow: hidden;
+}
+
+
+
+.faq{
+    // background-image: url('../images/faq-background.jpg');
+    h1{
+        font-size: 60px;
+    }
+}
+
+.codeImgLogo{
+    height: 250px !important;
+    width: 250px !important;
+}
+
+.faq-list-item {
+    background-color: $light-blue;
+}
+
+.faq-list-desc{
+    background-color: $light-blue !important;
+    margin-top: -10px;
+}
+
+.sponsor{
+    img{
+        width: 250px !important;
+        height: 100px !important;
+    }
+}
+.sponsor-btn{
+    background-color: $primary-blue !important;
+}
+
+.footer{
+    background-color: $primary-blue;
+    button{
+        background-color: $light-blue;
+        &:hover{
+            background-color: $light-blue;
+        }
+    }
+}
+
+@media only screen and (min-width:100px) and (max-width:550px) {
+    .heading-text{
+        font-size: 40px !important;
+    }
+    .calendar{
+        padding: 6px 6px 0px 6px !important;
+        width: auto !important;
+        border-radius: 12px !important;
+    }
+    .textRegistartionDate{
+        width: 100% !important;
+    }
+    .faq-heading{
+        font-size: 40px !important;
+    }
+    .codeImgLogo{
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .typed-cursor {
+        // display: none !important;
+        margin: 0px !important;
+        width: 2px !important;
+        height: 20px !important;
+        background-color: $white;
+        display: inline-block;
+        margin-left: 3px !important;
+    }
+}
