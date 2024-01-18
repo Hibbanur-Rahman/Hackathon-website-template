@@ -2,11 +2,16 @@
 body {
   margin: 0px;
   padding: 0px;
+<<<<<<< HEAD
+=======
+  background-color: #7588FD;
+>>>>>>> 3845e1b52a04cc6654427b12a1f70ab85313069f
 }
 
 .ctm-navbar {
   height: 70px;
   transition: height 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0ms, background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+<<<<<<< HEAD
   background-color: #7588FD !important;
   z-index: 3;
 }
@@ -26,6 +31,10 @@ body {
 .navRow {
   background-color: #7588FD !important;
   height: 50px;
+=======
+  background-color: #7588FD;
+  z-index: 3;
+>>>>>>> 3845e1b52a04cc6654427b12a1f70ab85313069f
 }
 
 .home-section {
@@ -69,10 +78,14 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+<<<<<<< HEAD
 .register:hover, .judges:hover {
   transition: all 0.3s ease-in-out;
 }
 .register:hover .overlay, .judges:hover .overlay {
+=======
+.register:hover ~ .overlay, .judges:hover ~ .overlay {
+>>>>>>> 3845e1b52a04cc6654427b12a1f70ab85313069f
   margin-left: 0%;
   transition: all 0.3s ease-in-out;
   z-index: 1;
@@ -119,6 +132,7 @@ body {
   background-color: #AEB8FE;
 }
 
+<<<<<<< HEAD
 @media only screen and (min-width: 100px) and (max-width: 550px) {
   .heading-text {
     font-size: 40px !important;
@@ -148,4 +162,6 @@ body {
   }
 }
 
+=======
+>>>>>>> 3845e1b52a04cc6654427b12a1f70ab85313069f
 /*# sourceMappingURL=style.css.map */
